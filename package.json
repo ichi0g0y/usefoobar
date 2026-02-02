@@ -6,12 +6,11 @@
     "react",
     "hooks"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nantokaworks/usefoobar.git"
-  },
+  "repository": "github:ichi0g0y/usefoobar",
+  "bugs": "https://github.com/ichi0g0y/usefoobar/issues",
+  "homepage": "https://github.com/ichi0g0y/usefoobar#readme",
   "license": "MIT",
-  "author": "Yamashita, Shinichi",
+  "author": "Shinichi Yamashita",
   "type": "module",
   "main": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -21,9 +20,9 @@
     "lint": "eslint ./src/*",
     "prepublish": "pnpm build"
   },
-  "prettier": "prettier-config-nantokaworks",
+  "prettier": "prettier-config-ichi0g0y",
   "devDependencies": {
-    "prettier-config-nantokaworks": "^0.1.1",
+    "prettier-config-ichi0g0y": "file:../prettier-config",
     "@types/react": ">= 18",
     "@types/rollup-plugin-peer-deps-external": "^2.2.4",
     "@vitejs/plugin-react": "^4.2.0",
