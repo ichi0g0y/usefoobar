@@ -22,7 +22,7 @@
   },
   "prettier": "prettier-config-ichi0g0y",
   "devDependencies": {
-    "prettier-config-ichi0g0y": "file:../prettier-config",
+    "prettier-config-ichi0g0y": "^0.1.2",
     "@types/react": ">= 18",
     "@types/rollup-plugin-peer-deps-external": "^2.2.4",
     "@vitejs/plugin-react": "^4.2.0",
